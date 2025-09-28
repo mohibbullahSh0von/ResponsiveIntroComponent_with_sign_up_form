@@ -16,7 +16,7 @@
         width: 100%;
         background: url("./images/bg-intro-desktop.png");
         background-size: cover;
-         background-color: var(--Red-400); 
+        background-color: var(--Red-400); 
     }
     main{
         width: 96%;
