@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaQuery.css">
+  
+</head>
+<body>
+
+  <main>
+    <section class="intro-section color-white">
+      <h1>Learn to code by watching others</h1>
+      <p class="intro-para color-transparent-white">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </section>
+    
+    <section class="form-section">
+      <p class="trail-msg bg-color-dark-purple"><span class="color-white font-weight-600">Try it free 7 days</span> <span class="color-transparent-white"> then $20/mo. thereafter</span></p>
+      <form>
+        
+        
+        <div class="input-parent first-name-parent">
+          <div class="input-wrapper first-name-input-wrapper">
+            <label for="user-first-name" class="sr-only">First Name</label>
+            <input type="text" name="First Name" id="user-first-name" placeholder="First Name" required>
+          </div>
+        </div>
+        
+        <div class="input-parent last-name-parent">
+          <div class="input-wrapper last-name-input-wrapper">
+            <label for="user-last-name" class="sr-only">Last Name</label>
+            <input type="text" name="Last Name" id="user-last-name" placeholder="Last Name" required>
+          </div>
+        </div>
+        
+        <div class="input-parent email-parent">
+          <div class="input-wrapper email-input-wrapper">
+            <label for="user-email" class="sr-only">Email Address</label>
+            <input type="email" name="Email" id="user-email" placeholder="Email Address" required>
+          </div>
+        </div>
+        
+        <div class="input-parent password-parent">
+          <div class="input-wrapper password-input-wrapper">
+            <label for="user-password" class="sr-only">Password</label>
+            <input type="password" name="Password" id="user-password" placeholder="Password" required>
+          </div>
+        </div>
+        
+        
+        <button type="submit" class="submit-btn">Claim your free trial </button>
+        <p class="forms-terms-msg color-light-purple font-small">By clicking the button, you are agreeing to our <a href="#" class="highlight font-weight-600">Terms and Services</a></p>
+      </form>
+    </section>
+  </main>
+  
+
+
+  <footer>
+    <p>Created by <a href="https://github.com/" class="author-name">Shovon</a> with ❤️</p>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>

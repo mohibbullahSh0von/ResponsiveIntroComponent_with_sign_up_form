@@ -1,0 +1,44 @@
+@media screen and (min-width: 490px) {
+    main{
+        align-items: center;
+    }
+    .intro-para{
+        max-width: 540px;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    html{
+        font-size: 70%;
+    }
+    body{
+        width: 100%;
+        
+    }
+    main{
+        width: 96%;
+        margin: 0 auto;
+        flex-direction: row;
+        gap: 3rem;
+    }
+    .intro-section{
+       width: 50%;
+       text-align: start;
+    }
+    .intro-para {
+        max-width: unset;
+    }
+    h1{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 80%;
+        }
+    h1 {
+        width: 54%;
+    }
+}
