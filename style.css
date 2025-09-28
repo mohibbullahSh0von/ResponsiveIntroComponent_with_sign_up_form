@@ -148,6 +148,7 @@ button{
     color: white;
     font-weight: 500;
     letter-spacing: 2px;
+    cursor:pointer;
 }
 button:active{
     transform: scale(0.95);
